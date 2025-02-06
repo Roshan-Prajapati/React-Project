@@ -1,0 +1,50 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px 82px 0px 98px;
+  background-color: #fff;
+}
+
+.navbar .logo img {
+  height: 80px;
+  padding-left: 40px;
+}
+
+.navbar .nav-links {
+  display: flex;
+  list-style: none;
+  gap: 44px;
+}
+
+.navbar .nav-links li {
+  font-size: 12px;
+}
+.navbar .nav-links span {
+  font-size: 14px;
+  text-decoration: none; /* Removes underline */
+  color: #000; /* Sets text color to black */
+  font-weight:550; /* Makes the text bold */
+  font-family: 'Arial', sans-serif; 
+}
+
+.navbar .nav-links li a {
+  text-decoration: none; /* Removes underline */
+  color: #000; /* Sets text color to black */
+  font-weight:550; /* Makes the text bold */
+  font-family: 'Arial', sans-serif; /* Replace with the desired font family */
+  transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+.navbar .nav-links li a:hover {
+  color: #4d8cec; 
+}
+
+.navbar .cta-button {
+  padding: 10px 30px 10px 30px;
+  font-size: 14px;
+  background-color: #4d8cec;
+  color: white;
+  border: none;
+  border-radius: 2px;
+}

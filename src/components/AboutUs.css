@@ -1,0 +1,134 @@
+.about-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+    gap: 20px;
+  }
+  
+  .about-left {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image-container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+  }
+  
+  .main-image {
+    width: 70%;
+    border-radius: 20px;
+    transition: transform 0.5s ease;
+  }
+  
+  .image-container:hover .main-image {
+    transform: scale(1.1); /* Zoom effect on hover */
+  }
+  
+  .background-overlay {
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    width: 40%;
+    height: 50%;
+    background: linear-gradient(135deg, #4f8ef3, #7a5cf0);
+    z-index: -3;
+    border-radius: 30px;
+  }
+  
+  .background-overlay-grey {
+    position: absolute;
+    top: 250px; 
+    right: 0px;
+    width: 45%;
+    height: 100%;
+    background: #cdc7c7; 
+    z-index: -2; /* Stacks it below the image but above the main background */
+    border-radius: 20px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+  }
+  
+  
+  
+  .follow-us {
+    position: absolute;
+    bottom: -20px;
+    right: 20px;
+    text-align: center;
+  }
+  
+  .follow-button {
+    background: linear-gradient(135deg, #4f8ef3, #3a2883);
+    border: none;
+    color: #fff;
+    padding: 15px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-bottom: 100px;
+  }
+  
+  .follow-button:hover {
+    background: #4f8ef3;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .social-icons i {
+    font-size: 20px;
+    color: #4f8ef3;
+    cursor: pointer;
+  }
+  
+  .about-right {
+    width: 50%;
+    text-align: left;
+    margin-left: 75px;
+  }
+  
+  .about-header {
+    margin-bottom: 20px;
+  }
+  
+  .about-tag {
+    display: inline-block;
+    background: linear-gradient(135deg, #4f8ef3, #7a5cf0);
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+  .about-right h2 {
+    margin: 10px 0;
+    font-size: 28px;
+  }
+  
+  .about-right p {
+    margin-bottom: 20px;
+    color: #666;
+    line-height: 1.6;
+  }
+  
+  .consult-button {
+    background-color: #fff;
+    color: #00b0ff;
+    border: none;
+    padding: 15px 25px;
+    font-size: 16px;
+    font-weight: 650;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px rgba(0, 176, 255, 0.4);
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .consult-button:hover {
+    background-color: #008ecc;
+  }
+  
