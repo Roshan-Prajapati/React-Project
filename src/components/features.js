@@ -12,19 +12,19 @@ const features = [
     title: "India's Largest Legal Tech Company",
     description:
       "BIZDOOR specializes in business registration, taxation, and licensing services. We boast a vast network of experienced professionals.",
-    icon: "🏛️",
+    icon: "📊",
   },
   {
     title: "99.9% Client Satisfaction",
     description:
       "We continuously strive to enhance the quality of services provided by our industry experts to meet your specific requirements.",
-    icon: "✅",
+    icon: "📊",
   },
   {
     title: "Excellent Advisory Services",
     description:
       "With the largest professional network, we offer top-notch advisory services, ensuring you encounter no complications.",
-    icon: "💼",
+    icon: "📊",
   },
 ];
 
@@ -32,7 +32,7 @@ const Features = () => {
   return (
     <section className="why-choose-section">
       <h2>
-        Why Choose <span>BIZDOOR</span>
+        Why Choose BIZDOOR
       </h2>
       <p>
         <strong>BIZDOOR</strong> is a dynamic platform dedicated to offering
