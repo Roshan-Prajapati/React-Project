@@ -5,6 +5,7 @@ import Banner from "./components/banner";
 import AboutUs from "./components/AboutUs";
 import Features from "./components/features";
 import Footer from "./components/footer";
+import Testimonials from "./components/testimonials";
 
 import './App.css';
 
@@ -16,6 +17,8 @@ const App = () => {
       <Banner />
       <AboutUs />
       <Features />
+      <Testimonials />
+
       <Footer />
       
     </div>
