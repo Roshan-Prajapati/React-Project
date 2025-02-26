@@ -1,11 +1,11 @@
 import React from "react";
+import { FaFacebookF, FaInstagram } from "react-icons/fa";
 import "./footer.css";
 
 const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-container">
-        {/* Main Footer Content */}
         <div className="footer-left">
           <img
             src={require("../assets/Bizdoor_Logo_.png")}
@@ -18,11 +18,15 @@ const Footer = () => {
             registration, government licensing, tax filing, and compliance
             management. With a focus on elevating Indian entrepreneurs, we
             provide expert advisory and digital marketing services to ensure
-            smooth business operations and growth. Connect with us for a free
-            consultation and let us propel your business forward.
+            smooth business operations and growth. We aim for 99.9% client
+            satisfaction by delivering tailored, high-quality services. Connect
+            with us for a free consultation and let us propel your business forward.
           </p>
+          <div className="footer-social">
+            <FaFacebookF className="social-icon" />
+            <FaInstagram className="social-icon" />
+          </div>
         </div>
-        
 
         <div className="footer-center">
           <h3 className="footer-title">Services</h3>
@@ -47,7 +51,6 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Bottom Footer Section */}
       <div className="footer-bottom">
         <p>© 2024 BIZDOOR. All rights reserved.</p>
         <a

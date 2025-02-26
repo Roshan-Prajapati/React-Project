@@ -1,6 +1,5 @@
 .footer {
-    background-color: #f9f9f9;
-    padding: 40px 20px;
+  background: linear-gradient(100deg, #ffffff, #b9afdc);
   }
   
   .footer-container {
@@ -9,6 +8,7 @@
     align-items: flex-start;
     max-width: 1200px;
     margin: 0 auto;
+    padding: 80px 80px;
   }
   
   .footer-left {
@@ -28,36 +28,32 @@
   }
 
   /* Footer Social Icons */
-  .footer-social-icons {
+
+  .footer-social {
     display: flex;
-    gap: 10px;
+    gap: 1rem;
+    margin-top: 1rem;
   }
-  
-  .social-icon {
-    font-size: 18px;
-    color: #4c63d9;
-    cursor: pointer;
-    text-decoration: none;
-  }
-  
+
   .footer-center,
   .footer-right {
     flex: 1;
     text-align: left;
+    padding-left: 40px;
   }
   
   .footer-title {
-    font-size: 16px;
+    font-size: 26px;
     font-weight: bold;
     margin-bottom: 10px;
     color: #333;
-    border-bottom: 2px solid #4d8cec;
+    border-bottom: 3px solid #6697fa;
     display: inline-block;
   }
   
   .footer-links {
     list-style: none;
-    padding: 0;
+    padding: 40px 0px;
     margin: 0;
   }
   
@@ -71,6 +67,7 @@
     font-size: 14px;
     line-height: 1.6;
     color: #555;
+    padding: 30px 0px 0px 0px;
   }
   
   .footer-contact a {

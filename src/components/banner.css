@@ -7,20 +7,20 @@ body {
   /* Banner Section */
   .banner-section {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
-    padding: 40px;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding: 30px;
+    padding-left: 10%;
+    /* padding-right: 10%; */
   }
-  
+   
   .banner-text {
     max-width: 50%;
     text-align: left;
   }
   
   .banner-text h1 {
-    font-size: 3rem;
+    font-size: 40px;
     color: #17274d; /* Navy blue */
     margin-bottom: 20px;
   }
@@ -73,10 +73,11 @@ body {
   }
   
   .banner-video {
-    max-width: 45%;
+    max-width: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
+
   }
   
   .banner-video video {

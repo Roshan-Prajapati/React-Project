@@ -26,9 +26,9 @@ const Banner = () => {
         </div>
       </div>
       <div className="banner-video">
-      <video autoPlay loop muted playsInline>
-        <source src={bannerVideo} type="video/mp4" />
-      </video>
+        <video autoPlay loop muted playsInline>
+          <source src={bannerVideo} type="video/mp4" />
+        </video>
       </div>
     </div>
   );
