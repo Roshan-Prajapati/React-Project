@@ -43,7 +43,8 @@ body {
   }
   
   .btn-consultation:hover {
-    background-color: #008ecc;
+    background: linear-gradient(135deg, #4f8ef3, #3a2883);
+    color: #fff;
   }
   
   .services-title {

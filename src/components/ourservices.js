@@ -16,6 +16,8 @@ const services = [
   { title: "Digital Marketing", image: service5 },
   { title: "Website Development Services", image: service3 },
   { title: "Startup India Certification", image: service4 },
+  { title: "Business Registration", image: service1 },
+
 ];
 
 const OurServices = () => {
